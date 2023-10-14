@@ -14,7 +14,7 @@
 -   Describe how you think it works
           - Rudamentary systems with just a backup generator need a basic ATS system. However when you have mutiple incoming sources, and potential high power loads this isn't the case. You need some type of MID, and that device requires a lot of embedded systems. 
 -   What design challenges and constraints does it present?
-      - There is a lot of contraints such as: power management laws, power requirements for loads like electric cars, noise supression laws on the incoming power from generators since they're highly inductive, power ratings on releasing power back to the grid, etc.
+            - There are a lot of contraints such as: power management laws, power requirements for loads like electric cars, noise supression laws on the incoming power from generators since they're highly inductive, power ratings on releasing power back to the grid, etc.
 
 ### Problem 2
 
