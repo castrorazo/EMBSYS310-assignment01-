@@ -1,3 +1,4 @@
+# ![embedded-real-time-systems-2000x600](https://github.com/castrorazo/EMBSYS310-assignment01-/assets/147465177/42261c57-9e5e-4c19-84ca-3ca0b2f73b5f)
 # EMBSYS-310-A-Assignment-01
 ## EMBSYS 310 A Assignment 1: Hello World
 
