@@ -8,8 +8,8 @@
 
 ### Problem 1
 
--   [ ]Think about the print server and other examples in the Primer
--   [x]What is an embedded system you would like to investigate?
+-   [ ] hink about the print server and other examples in the Primer
+-   [x] What is an embedded system you would like to investigate?
         - One fascinating embedded system to me is energy management system. One that includes the incoming grid power, a generator, an ESS, solar panels, and discharges to your electric car.
 -   [x] Describe how you think it works
           - Rudamentary systems with just a backup generator need a basic ATS system. However when you have mutiple incoming sources, and potential high power loads this isn't the case. You need some type of MID, and that device requires a lot of embedded systems. 
