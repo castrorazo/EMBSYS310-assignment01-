@@ -20,13 +20,13 @@
 
 -   [x] What is the purpose / advantage of using Two's Complement binary arithmetic?
       - In Engineering it simplifies hardware design, reduces the number of special cases for software, and allows for efficient addition, subtraction, multiplication, and division operations when coding.
-      - The purpose of two's compliment is to simplify the process of binary addition and subtraction operations by allowing the representation of both positive/negative integers to be shown in a binary format. 
+      - The purpose of two's complement is to simplify the process of binary addition and subtraction operations by allowing the representation of both positive/negative integers to be shown in a binary format. 
 
 ### Problem 3
 
 -   [x] Why are bitwise operations so important?
     - Bitwise operations are important because they provide versatile tools for working with individual bits of data, which is essential in various aspects of embedded systems programming.
-        - One of the tools it helps bring to light is binary format. Datasheets often show the information we need in othe rnumber systems, and it's essential to be able to work with this data.
+        - One of the tools it helps bring to light is binary formatting and manipulation. Datasheets often show the information we need in other number systems and it's essential to be able to work with this data.
         - Another tool that bitwise operations let you use is create bit level algorithms such as bitmaps. Bitwise operations are as fundamental to bitmaps as algebra is to calculus. 
 
 
