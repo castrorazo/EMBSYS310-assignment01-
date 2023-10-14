@@ -34,6 +34,7 @@ This involves:
 ### Problem 2
 
 -   What is the purpose / advantage of using Two's Complement binary arithmetic?
+      - It simplifies hardware design, reduces the number of special cases, and allows for efficient addition, subtraction, multiplication, and division operations.
 
 ### Problem 3
 
