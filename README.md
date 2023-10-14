@@ -30,6 +30,7 @@ This involves:
 -   What is an embedded system you would like to investigate?
 -   Describe how you think it works
 -   What design challenges and constraints does it present?
+      - Applesssss
 
 ### Problem 2
 
