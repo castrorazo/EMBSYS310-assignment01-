@@ -10,9 +10,11 @@
 
 -   Think about the print server and other examples in the Primer
 -   What is an embedded system you would like to investigate?
+        - One fascinating embedded system to me is energy management system. One that includes the incoming grid power, a generator, an ESS, solar panels, and discharges to your electric car.
 -   Describe how you think it works
+        - Rudimentary systems with just a backup generator need a basic ATS system. However when you have mutiple incoming sources, and potential high power loads this isn't the case. You need some type of MID, and that device requires a lot of embedded systems. 
 -   What design challenges and constraints does it present?
-      - 
+      - There is a lot of contraints such as: power management laws, power requirements for loads like electric cars, noise supression laws on the incoming power from generators since they're highly inductive, power ratings on releasing power back to the grid, etc.
 
 ### Problem 2
 
@@ -27,42 +29,7 @@
         - One of the tools it helps bring to light is binary format. Datasheets often show the information we need in othe rnumber systems, and it's essential to be able to work with this data.
         - Another tool that bitwise operations let you use is create bit level algorithms such as bitmaps. Bitwise operations are as fundamental to bitmaps as algebra is to calculus. 
 
-## Setting up GitHub
 
-1.  If you do not already have a GitHub account, set one up.
-2.  Use the link in the assignment to crate a personalized GitHub classroom project
-3.  Clone the project to your computer and complete the assignment there
-4.  The Markdown files to fill in will be in the Assignments sub-directory
-
-## Installing and Setting up STM32CubeIDE
-
-Follow the instructions in the "STM32CubeIDE Setup Instructions.pdf" document available in the Files section of Canvas and in the Assignments folder of this repository.
-
-## Deliverables
-
-1.  assignment1_problems1-3.md -- A markdown file containing the answer to Problem 1, 2, and 3
-2.  assignment01_term_output.md -- A markdown file containing a screenshot of the Tera Term output from your Hello World project running on your development board.
-3.  A folder with your source code for the "Hello World" assignment.
-
-For deliverable 2, since Markdown files are pure text documents, you will need to upload the image to your GitHub folder and provide a link in the markdown file to the image. See the GitHub documentation on how to do this:
-
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-Provide the URL of your GitHub pull request in Canvas.
-
-# GitHub Classroom Flow
-## Cloning and working on project
-1. Click on the GitHub Classroom link. This will create your own GitHub repo with starter code for the homework.
-2. Clone the repo locally: `git clone <repo>`
-3. Create a working branch: `git checkout -b assignment01`
-4. Make incremental changes to the code, commit and push. I suggest doing this any time you would like to save the state of the code that you may want to go back to. The number of commits and their content is irrelevant for homework grading (have as many as you would like).
- 
-```
-git add -A :/
-git commit -m "A good description of the changes"
-git push
-<repeat as many times as you'd like>
-```
 
 ## Create Pull Request
 1. Open `<repo>` in a browser. You may already see a "Create new pull request" from your branch if you made recent changes. If not, select "Pull requests" and click "New". Leave `base: main` and modify `compare:` to point to your branch name. Create the new PR.
@@ -73,6 +40,3 @@ git push
 2. To complete your homework, submit the PR link within Canvas (this step is mandatory - without something in Canvas, I won't be able to grade).
 3. If I have any comments, I will leave them in the PR then also point out there are comments in Canvas together with your grade.
 
-## Troubleshooting:
-- The first time you click a link for this classroom, you may need to associate your GitHub account to the classroom.
-- Some students reported they don't have access: this is a GitHub Classroom bug. If this happens, contact us immediately supplying the repo link as well as your GitHub account name. Create the repos as soon as possible to give us time to address any permissions issue before the assignments are due.
