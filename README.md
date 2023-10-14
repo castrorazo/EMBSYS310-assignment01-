@@ -34,6 +34,8 @@ This involves:
 ### Problem 2
 
 -   What is the purpose / advantage of using Two's Complement binary arithmetic?
+      - In Engineering it simplifies hardware design, reduces the number of special cases for software, and allows for efficient addition, subtraction, multiplication, and division operations when coding.
+      - The purpose of two's compliment is to simplify the process of binary addition and subtraction operations by allowing the representation of both positive/negative integers to be shown in a binary format. 
 
 ### Problem 3
 
