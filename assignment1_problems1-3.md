@@ -12,9 +12,9 @@
 -   [x] What is an embedded system you would like to investigate?
  * One fascinating embedded system to me is energy management system. One that includes the incoming grid power, a generator, an ESS, solar panels, and discharges to your electric car.
 -   [x] Describe how you think it works
- * Rudamentary systems with just a backup generator need a basic ATS system. However when you have mutiple incoming sources, and potential high power loads this isn't the case. You need some type of MID, and that device requires a lot of embedded systems. 
+ * Basic home energy systems with just a backup generator need a basic ATS(Automatic Transfer Switch).  However, when you have mutiple incoming power sources, and potential high power output loads this isn't the case. You need some type of MID(Microgrid Interconnect Device), which requires a lot of embedded systems. These are very complex devices that  my current company actually tried designing one for a year, before the renewable energy group got dissolved. It works by monotoring and controlling all of the inputs/outputs coming from it, and to be able to use energy as efficiently as possible. 
 - [x] What design challenges and constraints does it present?
-* There are a lot of contraints such as: power management laws, power requirements for loads like electric cars, noise supression laws on the incoming power from generators since they're highly inductive, power ratings on releasing power back to the grid, etc.
+* There are a lot of contraints such as: power management laws, power requirements for loads like electric cars, noise supression laws on the incoming power from generators since they're highly inductive, power ratings on releasing power back to the grid (grid compliance), and it has to have safety measures .
 
 ### Problem 2
 
@@ -25,9 +25,7 @@
 ### Problem 3
 
 -   [x] Why are bitwise operations so important?
-    - Bitwise operations are important because they provide versatile tools for working with individual bits of data, which is essential in various aspects of embedded systems programming.
-        - One of the tools it helps bring to light is binary formatting and manipulation. Datasheets often show the information we need in other number systems and it's essential to be able to work with this data.
-        - Another tool that bitwise operations let you use is create bit level algorithms such as bitmaps. Bitwise operations are as fundamental to bitmaps as algebra is to calculus. 
+    - When I took digital systems back in uni, we dicussed logic in computer systems. Basic logic gates include: NOT, AND, OR, XOR, NOR, and NAND. These gates allow me to perform digital computation which actually lets me design systems that have inputs that I want to condition in order to get some type of predictable output response. Hence in software these bitwise operations actually run on the same principles (logic gates), and allow me to once again design systems with predictable output responses to certain inputs. In embedded systems this is particularily useful since you need to use bitwise operations in order to work with differnt peripherals. For example setting up a pin on the development board as an LED will need to be programmed to be an output, use some type of internal clock, and we will need to write to it as well to turn it on/off. Noneof these instructions would be possible without proper bitwise operations. 
 
 
 
